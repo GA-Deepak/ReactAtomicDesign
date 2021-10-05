@@ -6,7 +6,6 @@ const About = () => {
       <section class="content-info py-5" id="about">
         <div class="container py-md-5">
           <h3 class="heading text-center mb-3 mb-sm-5">About us</h3>
-
           <div class="info-w3pvt-mid text-center px-lg-5">
             <div class="title-desc text-center px-lg-5">
               <img

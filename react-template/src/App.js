@@ -7,8 +7,8 @@ import Servicesonpage from "./Pages/Servicesonpage";
 import Single from "./Pages/Single";
 import Gallery from "./Pages/Gallery";
 import ContactUs from "./Pages/ContactUs";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import Footer from "./ComponentsOfHome/Footer";
+import Header from "./ComponentsOfHome/Header";
 
 function App() {
   return (

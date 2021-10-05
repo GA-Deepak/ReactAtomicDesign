@@ -1,4 +1,10 @@
 import React from "react";
+import Gal1 from "../ComponentsOfGallery/Gal1";
+import Gal2 from "../ComponentsOfGallery/Gal2";
+import Gal3 from "../ComponentsOfGallery/Gal3";
+import Gal4 from "../ComponentsOfGallery/Gal4";
+import Gal5 from "../ComponentsOfGallery/Gal5";
+import Gal6 from "../ComponentsOfGallery/Gal6";
 
 const Gallery = () => {
   return (
@@ -21,36 +27,13 @@ const Gallery = () => {
           <h3 class="heading text-center mb-3 mb-sm-5">Our Gallery</h3>
           <div class="gallery-content">
             <div class="row">
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal1">
-                  <img src="assets/images/g1.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal2">
-                  <img src="assets/images/g2.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal3">
-                  <img src="assets/images/g3.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal4">
-                  <img src="assets/images/g4.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal5">
-                  <img src="assets/images/g5.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
-              <div class="col-md-4 col-sm-6 gal-img">
-                <a href="#gal6">
-                  <img src="assets/images/g6.jpg" alt="aegis" class="img-fluid mt-4" />
-                </a>
-              </div>
+            <Gal1/>
+              <Gal2/>
+              <Gal3/>
+             <Gal4/>
+              <Gal5/>
+              <Gal6/>
+
             </div>
 
             <div id="gal1" class="popup-effect">
