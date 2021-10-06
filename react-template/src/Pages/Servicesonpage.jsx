@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AbrahamSpa from "../ComponentsOfServices/AbrahamSpa";
-import Haircuts from "../ComponentsOfServices/Haircuts";
 import BeardTrim from "./../ComponentsOfServices/BeardTrim";
 const Servicesonpage = () => {
   return (
@@ -23,7 +22,11 @@ const Servicesonpage = () => {
         <div class="container py-md-5">
           <h3 class="heading text-center mb-3 mb-sm-5">Our Stylings</h3>
           <div class="row what-we-do-grid">
-            <Haircuts />
+          <BeardTrim
+              src="assets/images/sp1.jpg"
+              head1="HAIRCUTS"
+              para="Sed ut perspiciatis undert sed omnis natus error ."
+            />
             <BeardTrim
               src="assets/images/sp2.jpg"
               head1="SHAVES"
