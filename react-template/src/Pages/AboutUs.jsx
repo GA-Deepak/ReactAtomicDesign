@@ -6,7 +6,6 @@ const AboutUs = () => {
   return (
     <div>
       <MoreAbout />
-
       <StatsCount />
       <section class="banner-bottom  py-5">
         <div class="container py-md-5">

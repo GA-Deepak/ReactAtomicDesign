@@ -19,7 +19,7 @@ const ContactUs = () => {
         <div class="container py-md-5">
          
           <div class="contact-w3pvt-form mt-5">
-            <form action="#" class="w3layouts-contact-fm" method="post">
+            <form action="#" class="w3layouts-contact-fm" method="">
               <div class="row">
                 <div class="col-lg-6">
                <FirstName/>

@@ -6,7 +6,6 @@ const Gallery = () => {
   return (
     <div>
       <section class="inner-page-banner" id="home"></section>
-
       <div class="breadcrumb-agile">
         <ol class="breadcrumb mb-0">
           <li class="breadcrumb-item">
