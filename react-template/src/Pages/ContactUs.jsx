@@ -3,6 +3,7 @@ import Button from "../ComponentsOfContactus/Button";
 import Email from "../ComponentsOfContactus/Email";
 import FirstName from "../ComponentsOfContactus/FirstName";
 import LastName from "../ComponentsOfContactus/LastName";
+import ListOfHead from "../ComponentsOfContactus/ListofHead";
 import Map from "../ComponentsOfContactus/Map";
 import Writemessage from "../ComponentsOfContactus/WriteMessage";
 const ContactUs = () => {
@@ -11,14 +12,7 @@ const ContactUs = () => {
       <section class="inner-page-banner" id="home"></section>
 
       <div class="breadcrumb-agile">
-        <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="breadcrumb-item active" aria-current="page">
-            Contact Us
-          </li>
-        </ol>
+       <ListOfHead/>
       </div>
 
       <section class="content-info py-5">

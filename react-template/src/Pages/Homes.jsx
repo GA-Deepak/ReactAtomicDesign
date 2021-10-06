@@ -5,8 +5,7 @@ import Services from "../ComponentsOfHome/Services";
 import Prices from "../ComponentsOfHome/Prices";
 import Call from "../ComponentsOfHome/Call";
 import AbrahamSpa from "../ComponentsOfServices/AbrahamSpa";
-import MarianaSpa from "../ComponentsOfServices/MarianaSpa";
-import Nebula from "../ComponentsOfServices/Nebula";
+
 class Home extends React.Component {
   render() {
     return (
@@ -20,9 +19,30 @@ class Home extends React.Component {
           <div class="container py-md-5">
             <h3 class="heading text-center mb-3 mb-sm-5">Client Reviews</h3>
             <div class="row mt-3">
-             <AbrahamSpa/>
-              <MarianaSpa/>
-              <Nebula/>
+            <div className="col-md-4 test-grid text-left px-lg-3">
+              <AbrahamSpa
+                para="Lorem Ipsum has been the industry's standard since the 1500s.
+            Praesent ullamcorper dui turpis."
+                src="assets/images/test1.jpg"
+                head=" Abraham Smith"
+              />
+            </div>
+            <div class="col-md-4 test-grid text-left px-lg-3 py-sm-5 py-md-0 py-3">
+            <AbrahamSpa 
+            para="Lorem Ipsum has been the industry's standard since the 1500s.
+            Praesent ullamcorper dui turpis."
+            src="assets/images/test2.jpg"
+            head=" Mariana Noe"
+            />
+            </div>
+            <div class="col-md-4 test-grid text-left px-lg-3">
+            <AbrahamSpa 
+            para="Lorem Ipsum has been the industry's standard since the 1500s.
+            Praesent ullamcorper dui turpis."
+            src="assets/images/test3.jpg"
+            head="Nebula Nairobi"
+            />
+            </div>
             </div>
           </div>
         </section>
@@ -39,7 +59,7 @@ class Home extends React.Component {
                 </div>
               </div>
               <div class="col-md-7 subscribe-right p-lg-5 py-sm-5 py-4">
-                <form action="#" method="post">
+                <form action="#" method="">
                   <input
                     type="email"
                     name="email"

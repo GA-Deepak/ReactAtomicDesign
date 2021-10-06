@@ -1,18 +1,17 @@
 import React from 'react';
 
-const AbrahamSpa = () => {
+const AbrahamSpa = ({ para, head, src}) => {
     return ( 
-        <div class="col-md-4 test-grid text-left px-lg-3">
+       
         <div class="test-info">
           <p>
-            Lorem Ipsum has been the industry's standard since the 1500s.
-            Praesent ullamcorper dui turpis.
+            {para}
           </p>
-          <h3 class="mt-md-4 mt-3"> Abraham Smith</h3>
+          <h3 class="mt-md-4 mt-3">{head}</h3>
 
           <div class="test-img text-center mb-3">
             <img
-              src="assets/images/test1.jpg"
+              src={src}
               class="img-fluid"
               alt="user-image"
             />
@@ -32,7 +31,7 @@ const AbrahamSpa = () => {
             </ul>
           </div>
         </div>
-      </div>
+     
      );
 }
  

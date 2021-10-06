@@ -1,10 +1,6 @@
 import React from "react";
-import Gal1 from "../ComponentsOfGallery/Gal1";
-import Gal2 from "../ComponentsOfGallery/Gal2";
-import Gal3 from "../ComponentsOfGallery/Gal3";
-import Gal4 from "../ComponentsOfGallery/Gal4";
-import Gal5 from "../ComponentsOfGallery/Gal5";
-import Gal6 from "../ComponentsOfGallery/Gal6";
+import Gal from "../ComponentsOfGallery/Gal1";
+
 
 const Gallery = () => {
   return (
@@ -27,12 +23,12 @@ const Gallery = () => {
           <h3 class="heading text-center mb-3 mb-sm-5">Our Gallery</h3>
           <div class="gallery-content">
             <div class="row">
-            <Gal1/>
-              <Gal2/>
-              <Gal3/>
-             <Gal4/>
-              <Gal5/>
-              <Gal6/>
+            <Gal href="#gal1" src="assets/images/g1.jpg"/>
+            <Gal href="#gal2" src="assets/images/g2.jpg"/>
+            <Gal href="#gal3" src="assets/images/g3.jpg"/>
+            <Gal href="#gal4" src="assets/images/g4.jpg"/>
+            <Gal href="#gal5" src="assets/images/g5.jpg"/>
+            <Gal href="#gal6" src="assets/images/g6.jpg"/>
 
             </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = () => {
     return ( 
-        <form action="#" class="w3ls-contact-fm" method="post">
+        <form action="#" class="w3ls-contact-fm" method="">
                 <div class="form-group">
                   <label>Write Message</label>
                   <textarea

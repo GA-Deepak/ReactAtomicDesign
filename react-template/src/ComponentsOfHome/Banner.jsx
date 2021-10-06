@@ -1,4 +1,5 @@
 import React from "react";
+import Allbanner from "./BannerPage/Allbanner";
 
 const Banner = () => {
   return (
@@ -14,87 +15,48 @@ const Banner = () => {
             <li>
               <div class="slider-info bg1">
                 <div class="bs-slider-overlay">
-                  <div class="banner-text">
-                    <div class="container">
-                      <h2 class="movetxt agile-title text-capitalize">
-                        We Create and Renovate Hair Style Trends
-                      </h2>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. It has survived not only five
-                        centuries.
-                      </p>
-                      <a href="contact.html" class="btn">
-                        {" "}
-                        Get appointment{" "}
-                      </a>
-                    </div>
-                  </div>
+                  <Allbanner
+                    head="We Create and Renovate Hair Style Trends"
+                    para="Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries."
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div class="slider-info bg2">
                 <div class="bs-slider-overlay1">
-                  <div class="banner-text">
-                    <div class="container">
-                      <h4 class="movetxt agile-title text-capitalize">
-                        We Help to grow your hair as well beard{" "}
-                      </h4>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. It has survived not only five
-                        centuries.
-                      </p>
-                      <a href="contact.html" class="btn">
-                        Get appointment{" "}
-                      </a>
-                    </div>
-                  </div>
+                  <Allbanner
+                    head="We Help to grow your hair as well beard"
+                    para="Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries."
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div class="slider-info bg3">
                 <div class="bs-slider-overlay1">
-                  <div class="banner-text">
-                    <div class="container">
-                      <h2 class="movetxt agile-title text-capitalize">
-                        We Design and Create Hair Style Latest
-                      </h2>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. It has survived not only five
-                        centuries.
-                      </p>
-                      <a href="contact.html" class="btn">
-                        {" "}
-                        Get appointment
-                      </a>
-                    </div>
-                  </div>
+                  <Allbanner
+                    head="We Design and Create Hair Style Latest"
+                    para="Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries."
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div class="slider-info bg4">
                 <div class="bs-slider-overlay1">
-                  <div class="banner-text">
-                    <div class="container">
-                      <h4 class="movetxt agile-title text-capitalize">
-                        We design latest trending haircuts{" "}
-                      </h4>
-                      <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. It has survived not only five
-                        centuries.
-                      </p>
-                      <a href="contact.html" class="btn">
-                        {" "}
-                        Get appointment{" "}
-                      </a>
-                    </div>
-                  </div>
+                  <Allbanner
+                    head=" We design latest trending haircuts"
+                    para="Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. It has survived not only five
+                    centuries."
+                  />
                 </div>
               </div>
             </li>
